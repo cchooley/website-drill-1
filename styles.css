@@ -1,0 +1,44 @@
+html {
+  color: #BFB9A7;
+}
+
+
+header {
+  background-color: #40373C;
+  padding: 15px 50px 15px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+#title {
+  font-size: 30px;
+}
+
+a {
+  color: #BFB9A7;
+}
+
+#imgcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+#copycontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #40373C;
+  padding: 15px 50px 15px 50px;
+}
