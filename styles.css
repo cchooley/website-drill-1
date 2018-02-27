@@ -36,6 +36,32 @@ a {
 #copycontainer {
   display: flex;
   justify-content: space-around;
+  margin: 50px;
+}
+
+.column {
+
+}
+
+.title {
+  text-transform: uppercase;
+  color: #403E38;
+  margin-bottom: 10px;
+}
+
+.colimg {
+  float: left;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 15px;
+  border-width: medium;
+  border-style: double;
+  border-color: grey;
+}
+
+.endlink {
+  float: right;
+  color: orange;
 }
 
 footer {
