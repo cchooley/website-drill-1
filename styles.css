@@ -43,14 +43,19 @@ main {
 
 #copycontainer {
   display: flex;
-  justify-content: space-between;
-  margin: 50px;
+  justify-content: space-around;
+  margin: 40px;
 }
 
 .title {
   text-transform: uppercase;
   color: #403E38;
-  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.column {
+  position: relative;
+  padding: 10px;
 }
 
 .colimg {
@@ -67,6 +72,7 @@ main {
   float: right;
   color: orange;
   font-size: 15px;
+  padding-right: 10px;
 }
 
 footer {
