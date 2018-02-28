@@ -5,7 +5,7 @@ html {
 
 header {
   background-color: #40373C;
-  padding: 15px 50px 15px 50px;
+  padding: 15px 80px 15px 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -13,38 +13,56 @@ header {
 nav {
   background-color: black;
   text-transform: uppercase;
-  padding: 12px;
-  margin: 12px;
+  padding: 12px 12px 12px 12px;
+  margin: 12px 0px 12px 12px;
   width: 450px;
   display: flex;
   justify-content: space-around;
+  align-self: center;
 }
 
-#title {
+.tagline {
+  align-self: flex-start;
+}
+
+.buttoncontainer {
+  align-self: flex-end;
+}
+
+.maintitle {
   font-size: 30px;
 }
 
 a {
   color: #BFB9A7;
-  padding: 1px;
   font-size: 18px;
   text-decoration: none;
 }
 
 main {
-  padding-top: 15px;
-  padding-bottom: 40px;
+  margin: 90px 0px 30px 0px;
 }
 
-#imgcontainer {
+.imgcontainer {
   display: flex;
-  justify-content: center;
+  padding: 15px 80px 15px 80px;
+  justify-content:space-between;
+  flex-flow: row;
 }
 
-#copycontainer {
+.hero {
+  width: 450px;
+}
+
+.slogan {
+  width: 630px;
+  height: 300px;
+}
+
+.copycontainer {
   display: flex;
   justify-content: space-around;
-  margin: 40px;
+  margin: 70px;
 }
 
 .title {
@@ -66,6 +84,8 @@ main {
   border-width: medium;
   border-style: double;
   border-color: grey;
+  height: 80px;
+  width: 80px;
 }
 
 .endlink {
@@ -77,5 +97,5 @@ main {
 
 footer {
   background-color: #40373C;
-  padding: 15px 50px 15px 50px;
+  padding: 15px 80px 15px 80px;
 }
