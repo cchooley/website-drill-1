@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.blogtitle {
+  margin: 10px 15px 5px 15px;
+}
+
+.subheading {
+  margin: 0px 15px 10px 15px;
+}
+
+.maincage {
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+  align-self: center;
+}
+
+.sitelinks {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+footer {
+  padding: 10px 15px 15px 15px;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  float: right;
+  align-self: flex-end;
+  position: absolute;
+}
+
+
+.mainheading {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.graphheading {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.graphtext {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
