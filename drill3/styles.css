@@ -1,0 +1,51 @@
+.headeralign {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.restaurant {
+  justify-content: flex-start;
+}
+
+nav {
+  justify-content: flex-end;
+}
+
+.a_align {
+  display: flex;
+  flex-flow: column;
+  align-content: space-around;
+  padding: 50px;
+  border-bottom: 2px solid black;
+}
+
+.greeting {
+  padding: 20px;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.ordernow {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu_button {
+  border: 3px solid black;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  width: 5%;
+  padding: 20px;
+  background-color: oldlace;
+}
+
+footer {
+  border-top: 2px solid black;
+}
