@@ -12,12 +12,12 @@ header {
 
 nav {
   background-color: black;
+  text-transform: uppercase;
+  padding: 12px;
+  margin: 12px;
+  width: 450px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  height: 30px;
-  width: 300px;
+  justify-content: space-around;
 }
 
 #title {
@@ -26,6 +26,14 @@ nav {
 
 a {
   color: #BFB9A7;
+  padding: 1px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 15px;
+  padding-bottom: 40px;
 }
 
 #imgcontainer {
@@ -35,12 +43,8 @@ a {
 
 #copycontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 50px;
-}
-
-.column {
-
 }
 
 .title {
@@ -62,6 +66,7 @@ a {
 .endlink {
   float: right;
   color: orange;
+  font-size: 15px;
 }
 
 footer {
