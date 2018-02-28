@@ -46,6 +46,30 @@ span {
   background-color: oldlace;
 }
 
+.b_align {
+  display: flex;
+  align-items: space-around;
+  justify-content: center;
+  padding: 20px;
+}
+
+.b_col {
+  min-width: 33%;
+  justify-content: center;
+}
+
 footer {
   border-top: 2px solid black;
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.footeralign {
+  justify-content: flex-start;
+}
+
+.inneralign {
+  justify-content: flex-end;
 }
