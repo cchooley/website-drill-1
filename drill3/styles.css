@@ -100,12 +100,12 @@ a:hover {
 }
 
 .col2 {
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 33%;
 }
 
 .col3 {
-  justify-content: flex-end;
+  justify-content: flex-start;
   max-width: 33%;
 }
 
@@ -154,4 +154,32 @@ footer {
   padding: 0px 5px 0px 5px;
   border: 1px oldlace solid;
   border-radius: 30px;
+}
+
+.menuheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.menubody {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px 30px 10px;
+}
+
+.menucol1 {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.menucol2 {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
 }
