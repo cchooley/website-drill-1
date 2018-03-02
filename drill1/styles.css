@@ -8,6 +8,7 @@ header {
   padding: 15px 80px 15px 80px;
   display: flex;
   justify-content: space-between;
+  margin: 0px 8px 0px 8px;
 }
 
 nav {
@@ -31,6 +32,8 @@ nav {
 
 .maintitle {
   font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 8px;
 }
 
 a {
@@ -98,4 +101,5 @@ main {
 footer {
   background-color: #40373C;
   padding: 15px 80px 15px 80px;
+  margin: 0px 8px 0px 8px;
 }
