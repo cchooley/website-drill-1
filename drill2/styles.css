@@ -8,6 +8,10 @@ nav {
   flex-direction: column;
 }
 
+.blank_header {
+  display: none;
+}
+
 .aligner {
   display: flex;
   flex-direction: column;
@@ -31,17 +35,19 @@ nav {
 }
 
 .sitelinks {
-  padding: 15px;
+  padding: 0px 15px 10px 15px;
+  margin: 5px 0px 5px 0px;
   display: flex;
   flex-direction: column;
+  list-style-type: none;
 }
 
 .navlink {
   text-decoration: none;
 }
 
-footer {
-  padding: 10px 15px 15px 15px;
+.legalstuff {
+  margin: 0px 15px 10px 15px;
 }
 
 .container {
